@@ -1,6 +1,6 @@
 #Earbits Stream
 
-This project uses the Earbits Stream to play music, displaying song title, artist name and artist featured image.
+This project uses the [Earbits Stream](http://www.earbits.com/) to play music, displaying song title, artist name and artist featured image.
 
 It is a modification of the Swift Radio Open Source project, description follows :
 
