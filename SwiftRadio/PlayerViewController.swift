@@ -61,7 +61,7 @@ class PlayerViewController: UIViewController {
     // Setup handoff functionality - GH
     setupUserActivity()
     
-    // Set AlbumArtwork Constraints
+    // Set ArtistImage Constraints
     optimizeForDeviceSize()
     
     self.trackList = TrackList()
@@ -114,7 +114,7 @@ class PlayerViewController: UIViewController {
     // View became active
     updateLabels()
     justBecameActive = true
-    updateAlbumArtwork()
+    updateArtistImage()
   }
   
   deinit {
@@ -170,12 +170,12 @@ class PlayerViewController: UIViewController {
     
     updateLabels()
     
+    updateArtistImage()
+    
     // songLabel animate
     songLabel.animation = "flash"
     songLabel.repeatCount = 3
     songLabel.animate()
-    
-    resetAlbumArtwork()
     
     playPressed()
     earbitsTrack!.isPlaying = true
@@ -316,18 +316,29 @@ class PlayerViewController: UIViewController {
   }
   
   //*****************************************************************
-  // MARK: - Album Art
+  // MARK: - Artist Image
   //*****************************************************************
   
-  func resetAlbumArtwork() {
-    earbitsTrack!.artworkLoaded = false
-    updateAlbumArtwork()
-    stationDescLabel.hidden = false
+  func animateArtistImage() {
+    // Animate artwork
+    self.albumImageView.animation = "wobble"
+    self.albumImageView.duration = 2
+    self.albumImageView.animate()
+    self.stationDescLabel.hidden = true
+    
+    // Update lockscreen
+    self.updateLockScreen()
+    
+    // Call delegate function that artwork updated
+    self.delegate?.artworkDidUpdate(self.earbitsTrack!)
   }
   
-  func updateAlbumArtwork() {
-    earbitsTrack!.artworkLoaded = false
-    if earbitsTrack!.artist.artistImageURL.rangeOfString("http") != nil {
+  func updateArtistImage() {
+    if (earbitsTrack!.artworkLoaded && (self.earbitsTrack!.artist.artworkImage != nil)) {
+      // use cached image
+      self.albumImageView.image = self.earbitsTrack!.artist.artworkImage!
+      self.animateArtistImage()
+    } else if earbitsTrack!.artist.artistImageURL.rangeOfString("http") != nil {
       
       // Hide station description
       dispatch_async(dispatch_get_main_queue()) {
@@ -335,36 +346,13 @@ class PlayerViewController: UIViewController {
         self.stationDescLabel.hidden = false
       }
       
-      // Attempt to download album art from an API
       if let url = NSURL(string: earbitsTrack!.artist.artistImageURL) {
-        
+        // fetch image from url
         self.downloadTask = self.albumImageView.loadImageWithURL(url) { (image) in
-          
-          // Update track struct
           self.earbitsTrack!.artist.artworkImage = image
           self.earbitsTrack!.artworkLoaded = true
-          
-          // Turn off network activity indicator
-          UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-          
-          // Animate artwork
-          self.albumImageView.animation = "wobble"
-          self.albumImageView.duration = 2
-          self.albumImageView.animate()
-          self.stationDescLabel.hidden = true
-          
-          // Update lockscreen
-          self.updateLockScreen()
-          
-          // Call delegate function that artwork updated
-          self.delegate?.artworkDidUpdate(self.earbitsTrack!)
+          self.animateArtistImage()
         }
-      }
-      
-      // Hide the station description to make room for album art
-      if earbitsTrack!.artworkLoaded && !self.justBecameActive {
-        self.stationDescLabel.hidden = true
-        self.justBecameActive = false
       }
       
     } else if earbitsTrack!.artist.artistImageURL != "" {
@@ -392,12 +380,12 @@ class PlayerViewController: UIViewController {
   
   func updateLockScreen() {
     // Update notification/lock screen
-    let albumArtwork = MPMediaItemArtwork(image: self.earbitsTrack!.artist.artworkImage!)
+    let artistImage = MPMediaItemArtwork(image: self.earbitsTrack!.artist.artworkImage!)
     
     MPNowPlayingInfoCenter.defaultCenter().nowPlayingInfo = [
       MPMediaItemPropertyArtist: earbitsTrack!.artist.artistName,
       MPMediaItemPropertyTitle: earbitsTrack!.trackName,
-      MPMediaItemPropertyArtwork: albumArtwork
+      MPMediaItemPropertyArtwork: artistImage
     ]
   }
   
