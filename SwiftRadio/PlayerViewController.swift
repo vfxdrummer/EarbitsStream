@@ -74,6 +74,9 @@ class PlayerViewController: UIViewController {
     // Create Now Playing BarItem
     createNowPlayingAnimation()
     
+    // pause initially
+    playButtonEnable(false)
+    
     // Setup MPMoviePlayerController
     // If you're building an app for a client, you may want to
     // replace the MediaPlayer player with a more robust
@@ -188,6 +191,7 @@ class PlayerViewController: UIViewController {
   }
   
   @IBAction func playPressed() {
+    if (earbitsTrack == nil) { return }
     earbitsTrack!.isPlaying = true
     playButtonEnable(false)
     radioPlayer.play()
@@ -205,6 +209,7 @@ class PlayerViewController: UIViewController {
   }
   
   @IBAction func pausePressed() {
+    if (earbitsTrack == nil) { return }
     earbitsTrack!.isPlaying = false
     
     playButtonEnable()
@@ -276,13 +281,11 @@ class PlayerViewController: UIViewController {
       playButton.enabled = true
       pauseButton.enabled = false
       nextButton.enabled = true
-      earbitsTrack!.isPlaying = false
     } else {
       previousButton.enabled = true
       playButton.enabled = false
       pauseButton.enabled = true
       nextButton.enabled = true
-      earbitsTrack!.isPlaying = true
     }
   }
   

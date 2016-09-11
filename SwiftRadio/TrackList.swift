@@ -45,7 +45,7 @@ class TrackList: NSObject {
   }
   
   func previousTrack() {
-    if (self.trackId == 0) { return }
+    if (self.trackId <= 0) { return }
     self.trackId -= 1
     TrackList.notifyTrackUpdated()
   }

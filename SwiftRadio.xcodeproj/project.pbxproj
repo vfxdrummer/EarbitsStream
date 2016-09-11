@@ -217,12 +217,12 @@
 		9409E1181ABF6FEA00312E2B /* SwiftRadio */ = {
 			isa = PBXGroup;
 			children = (
-				94D2608E1B45D0F800DE671C /* ViewControllers */,
-				94823F861B5576F4004EC711 /* Data */,
 				94E976191B1A8BFB00F52B1E /* Model */,
+				94823F861B5576F4004EC711 /* Data */,
 				94AC70AF1AD05C7400652982 /* Networking */,
 				9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */,
 				9409E1221ABF6FEA00312E2B /* Main.storyboard */,
+				94D2608E1B45D0F800DE671C /* ViewControllers */,
 				9409E1251ABF6FEA00312E2B /* Images.xcassets */,
 				9409E1191ABF6FEA00312E2B /* Supporting Files */,
 				94D260941B45E0BA00DE671C /* UI Helpers */,
