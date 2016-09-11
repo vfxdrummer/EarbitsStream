@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220854781D8327080003D2DD /* earbitsTrack.json in Resources */ = {isa = PBXBuildFile; fileRef = 220854771D8327080003D2DD /* earbitsTrack.json */; };
+		2208547A1D8327BC0003D2DD /* EarbitsTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220854791D8327BC0003D2DD /* EarbitsTrack.swift */; };
+		2208547C1D8329990003D2DD /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208547B1D8329990003D2DD /* Artist.swift */; };
+		220854871D8360360003D2DD /* EarbitsTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220854861D8360360003D2DD /* EarbitsTrackTests.swift */; };
+		2208548F1D8363040003D2DD /* EarbitsTrackDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208548E1D8363040003D2DD /* EarbitsTrackDataManager.swift */; };
+		220854901D8365FD0003D2DD /* EarbitsTrackDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208548E1D8363040003D2DD /* EarbitsTrackDataManager.swift */; };
+		220854911D83668D0003D2DD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */; };
+		220854921D8366A40003D2DD /* EarbitsTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220854791D8327BC0003D2DD /* EarbitsTrack.swift */; };
+		220854931D8366AC0003D2DD /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208547B1D8329990003D2DD /* Artist.swift */; };
+		220854941D8368E50003D2DD /* SwiftRadio-Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */; };
+		229654481D85493B007BEE74 /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229654471D85493B007BEE74 /* TrackList.swift */; };
+		2C5545BD1C1124DE00728469 /* SwiftRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */; };
+		9409E11C1ABF6FEA00312E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */; };
+		9409E1241ABF6FEA00312E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9409E1221ABF6FEA00312E2B /* Main.storyboard */; };
+		9409E1261ABF6FEA00312E2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9409E1251ABF6FEA00312E2B /* Images.xcassets */; };
+		9409E1401ABF78B000312E2B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9409E13F1ABF78B000312E2B /* PlayerViewController.swift */; };
+		94817DFB1B547D5700D3FA23 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94817DFA1B547D5700D3FA23 /* Player.swift */; };
+		949E5EB01ACB340200AB6280 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */; };
+		94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */; };
+		94D260961B45E3FA00DE671C /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260951B45E3FA00DE671C /* AnimationFrames.swift */; };
+		94DB0A901B98B762005ED993 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A721B98B762005ED993 /* AsyncButton.swift */; };
+		94DB0A911B98B762005ED993 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A731B98B762005ED993 /* AsyncImageView.swift */; };
+		94DB0A921B98B762005ED993 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A741B98B762005ED993 /* AutoTextView.swift */; };
+		94DB0A931B98B762005ED993 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A751B98B762005ED993 /* BlurView.swift */; };
+		94DB0A941B98B762005ED993 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A761B98B762005ED993 /* DesignableButton.swift */; };
+		94DB0A951B98B762005ED993 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A771B98B762005ED993 /* DesignableImageView.swift */; };
+		94DB0A961B98B762005ED993 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A781B98B762005ED993 /* DesignableLabel.swift */; };
+		94DB0A971B98B762005ED993 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A791B98B762005ED993 /* DesignableTabBarController.swift */; };
+		94DB0A981B98B762005ED993 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A7A1B98B762005ED993 /* DesignableTextField.swift */; };
+		94DB0A991B98B762005ED993 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A7B1B98B762005ED993 /* DesignableTextView.swift */; };
+		94DB0A9A1B98B762005ED993 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A7C1B98B762005ED993 /* DesignableView.swift */; };
+		94DB0A9B1B98B762005ED993 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A7D1B98B762005ED993 /* ImageLoader.swift */; };
+		94DB0A9C1B98B762005ED993 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94DB0A7E1B98B762005ED993 /* Info.plist */; };
+		94DB0A9D1B98B762005ED993 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A7F1B98B762005ED993 /* KeyboardLayoutConstraint.swift */; };
+		94DB0A9E1B98B762005ED993 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A801B98B762005ED993 /* LoadingView.swift */; };
+		94DB0A9F1B98B762005ED993 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DB0A811B98B762005ED993 /* LoadingView.xib */; };
+		94DB0AA01B98B762005ED993 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A821B98B762005ED993 /* Misc.swift */; };
+		94DB0AA11B98B762005ED993 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A831B98B762005ED993 /* SoundPlayer.swift */; };
+		94DB0AA21B98B762005ED993 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A851B98B762005ED993 /* Spring.swift */; };
+		94DB0AA31B98B762005ED993 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A861B98B762005ED993 /* SpringAnimation.swift */; };
+		94DB0AA41B98B762005ED993 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A871B98B762005ED993 /* SpringButton.swift */; };
+		94DB0AA51B98B762005ED993 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A881B98B762005ED993 /* SpringImageView.swift */; };
+		94DB0AA61B98B762005ED993 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A891B98B762005ED993 /* SpringLabel.swift */; };
+		94DB0AA71B98B762005ED993 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8A1B98B762005ED993 /* SpringTextField.swift */; };
+		94DB0AA81B98B762005ED993 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8B1B98B762005ED993 /* SpringTextView.swift */; };
+		94DB0AA91B98B762005ED993 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8C1B98B762005ED993 /* SpringView.swift */; };
+		94DB0AAA1B98B762005ED993 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8D1B98B762005ED993 /* TransitionManager.swift */; };
+		94DB0AAB1B98B762005ED993 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8E1B98B762005ED993 /* TransitionZoom.swift */; };
+		94DB0AAC1B98B762005ED993 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8F1B98B762005ED993 /* UnwindSegue.swift */; };
+		94E9761C1B1A8F3200F52B1E /* UIImage+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */; };
+		94ECF2671B94D80600D120A8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */; };
+		9F9EC8D70DC58CD1381A850C /* Pods_SwiftRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E221651C8B06FCEA5DE356 /* Pods_SwiftRadio.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220854891D8360360003D2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9409E10E1ABF6FE900312E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9409E1151ABF6FEA00312E2B;
+			remoteInfo = SwiftRadio;
+		};
+		2C5545BF1C1124DE00728469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9409E10E1ABF6FE900312E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9409E1151ABF6FEA00312E2B;
+			remoteInfo = SwiftRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E221651C8B06FCEA5DE356 /* Pods_SwiftRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220854771D8327080003D2DD /* earbitsTrack.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = earbitsTrack.json; sourceTree = "<group>"; };
+		220854791D8327BC0003D2DD /* EarbitsTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarbitsTrack.swift; sourceTree = "<group>"; };
+		2208547B1D8329990003D2DD /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		220854841D8360360003D2DD /* EarbitsTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarbitsTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220854861D8360360003D2DD /* EarbitsTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarbitsTrackTests.swift; sourceTree = "<group>"; };
+		220854881D8360360003D2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2208548E1D8363040003D2DD /* EarbitsTrackDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarbitsTrackDataManager.swift; sourceTree = "<group>"; };
+		229654471D85493B007BEE74 /* TrackList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		2C5545BA1C1124DE00728469 /* SwiftRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRadioUITests.swift; sourceTree = "<group>"; };
+		2C5545BE1C1124DE00728469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FCF8C1B10D159D172E24E8 /* Pods-SwiftRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRadio.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRadio/Pods-SwiftRadio.release.xcconfig"; sourceTree = "<group>"; };
+		9409E1161ABF6FEA00312E2B /* SwiftRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9409E11A1ABF6FEA00312E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9409E1231ABF6FEA00312E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9409E1251ABF6FEA00312E2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9409E13F1ABF78B000312E2B /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		94817DFA1B547D5700D3FA23 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftRadio-Settings.swift"; sourceTree = "<group>"; };
+		94D260951B45E3FA00DE671C /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
+		94DB0A721B98B762005ED993 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		94DB0A731B98B762005ED993 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		94DB0A741B98B762005ED993 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		94DB0A751B98B762005ED993 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		94DB0A761B98B762005ED993 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		94DB0A771B98B762005ED993 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		94DB0A781B98B762005ED993 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		94DB0A791B98B762005ED993 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		94DB0A7A1B98B762005ED993 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		94DB0A7B1B98B762005ED993 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		94DB0A7C1B98B762005ED993 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		94DB0A7D1B98B762005ED993 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		94DB0A7E1B98B762005ED993 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DB0A7F1B98B762005ED993 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		94DB0A801B98B762005ED993 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		94DB0A811B98B762005ED993 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		94DB0A821B98B762005ED993 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		94DB0A831B98B762005ED993 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		94DB0A841B98B762005ED993 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		94DB0A851B98B762005ED993 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		94DB0A861B98B762005ED993 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		94DB0A871B98B762005ED993 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		94DB0A881B98B762005ED993 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		94DB0A891B98B762005ED993 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		94DB0A8A1B98B762005ED993 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		94DB0A8B1B98B762005ED993 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		94DB0A8C1B98B762005ED993 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		94DB0A8D1B98B762005ED993 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		94DB0A8E1B98B762005ED993 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		94DB0A8F1B98B762005ED993 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DropShadow.swift"; sourceTree = "<group>"; };
+		94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftRadio/Libraries/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
+		B90086461BBE40AF00E5372C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C05B9176740D26066A1CD518 /* Pods-SwiftRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRadio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftRadio/Pods-SwiftRadio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220854811D8360360003D2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5545B71C1124DE00728469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9409E1131ABF6FEA00312E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9EC8D70DC58CD1381A850C /* Pods_SwiftRadio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220854851D8360360003D2DD /* EarbitsTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				220854861D8360360003D2DD /* EarbitsTrackTests.swift */,
+				220854881D8360360003D2DD /* Info.plist */,
+			);
+			path = EarbitsTrackTests;
+			sourceTree = "<group>";
+		};
+		2C5545BB1C1124DE00728469 /* SwiftRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */,
+				2C5545BE1C1124DE00728469 /* Info.plist */,
+			);
+			path = SwiftRadioUITests;
+			sourceTree = "<group>";
+		};
+		7A92E114CD6E431B6E52761F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E221651C8B06FCEA5DE356 /* Pods_SwiftRadio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9409E10D1ABF6FE900312E2B = {
+			isa = PBXGroup;
+			children = (
+				B90086461BBE40AF00E5372C /* MediaPlayer.framework */,
+				9409E1181ABF6FEA00312E2B /* SwiftRadio */,
+				949BBB411ACCA2B6005B7C26 /* Libraries */,
+				2C5545BB1C1124DE00728469 /* SwiftRadioUITests */,
+				220854851D8360360003D2DD /* EarbitsTrackTests */,
+				9409E1171ABF6FEA00312E2B /* Products */,
+				9F00EC2A5FDDDDD4918BCCE4 /* Pods */,
+				7A92E114CD6E431B6E52761F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9409E1171ABF6FEA00312E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9409E1161ABF6FEA00312E2B /* SwiftRadio.app */,
+				2C5545BA1C1124DE00728469 /* SwiftRadioUITests.xctest */,
+				220854841D8360360003D2DD /* EarbitsTrackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9409E1181ABF6FEA00312E2B /* SwiftRadio */ = {
+			isa = PBXGroup;
+			children = (
+				94D2608E1B45D0F800DE671C /* ViewControllers */,
+				94823F861B5576F4004EC711 /* Data */,
+				94E976191B1A8BFB00F52B1E /* Model */,
+				94AC70AF1AD05C7400652982 /* Networking */,
+				9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */,
+				9409E1221ABF6FEA00312E2B /* Main.storyboard */,
+				9409E1251ABF6FEA00312E2B /* Images.xcassets */,
+				9409E1191ABF6FEA00312E2B /* Supporting Files */,
+				94D260941B45E0BA00DE671C /* UI Helpers */,
+			);
+			path = SwiftRadio;
+			sourceTree = "<group>";
+		};
+		9409E1191ABF6FEA00312E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9409E11A1ABF6FEA00312E2B /* Info.plist */,
+				94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94823F861B5576F4004EC711 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				220854771D8327080003D2DD /* earbitsTrack.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		949BBB411ACCA2B6005B7C26 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */,
+				94DB0A711B98B762005ED993 /* Spring */,
+			);
+			name = Libraries;
+			path = RadioPro;
+			sourceTree = "<group>";
+		};
+		94AC70AF1AD05C7400652982 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2208548E1D8363040003D2DD /* EarbitsTrackDataManager.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		94D2608E1B45D0F800DE671C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9409E13F1ABF78B000312E2B /* PlayerViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		94D260941B45E0BA00DE671C /* UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94D260951B45E3FA00DE671C /* AnimationFrames.swift */,
+				949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */,
+				94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */,
+			);
+			name = "UI Helpers";
+			sourceTree = "<group>";
+		};
+		94DB0A711B98B762005ED993 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				94DB0A721B98B762005ED993 /* AsyncButton.swift */,
+				94DB0A731B98B762005ED993 /* AsyncImageView.swift */,
+				94DB0A741B98B762005ED993 /* AutoTextView.swift */,
+				94DB0A751B98B762005ED993 /* BlurView.swift */,
+				94DB0A761B98B762005ED993 /* DesignableButton.swift */,
+				94DB0A771B98B762005ED993 /* DesignableImageView.swift */,
+				94DB0A781B98B762005ED993 /* DesignableLabel.swift */,
+				94DB0A791B98B762005ED993 /* DesignableTabBarController.swift */,
+				94DB0A7A1B98B762005ED993 /* DesignableTextField.swift */,
+				94DB0A7B1B98B762005ED993 /* DesignableTextView.swift */,
+				94DB0A7C1B98B762005ED993 /* DesignableView.swift */,
+				94DB0A7D1B98B762005ED993 /* ImageLoader.swift */,
+				94DB0A7E1B98B762005ED993 /* Info.plist */,
+				94DB0A7F1B98B762005ED993 /* KeyboardLayoutConstraint.swift */,
+				94DB0A801B98B762005ED993 /* LoadingView.swift */,
+				94DB0A811B98B762005ED993 /* LoadingView.xib */,
+				94DB0A821B98B762005ED993 /* Misc.swift */,
+				94DB0A831B98B762005ED993 /* SoundPlayer.swift */,
+				94DB0A841B98B762005ED993 /* Spring.h */,
+				94DB0A851B98B762005ED993 /* Spring.swift */,
+				94DB0A861B98B762005ED993 /* SpringAnimation.swift */,
+				94DB0A871B98B762005ED993 /* SpringButton.swift */,
+				94DB0A881B98B762005ED993 /* SpringImageView.swift */,
+				94DB0A891B98B762005ED993 /* SpringLabel.swift */,
+				94DB0A8A1B98B762005ED993 /* SpringTextField.swift */,
+				94DB0A8B1B98B762005ED993 /* SpringTextView.swift */,
+				94DB0A8C1B98B762005ED993 /* SpringView.swift */,
+				94DB0A8D1B98B762005ED993 /* TransitionManager.swift */,
+				94DB0A8E1B98B762005ED993 /* TransitionZoom.swift */,
+				94DB0A8F1B98B762005ED993 /* UnwindSegue.swift */,
+			);
+			name = Spring;
+			path = SwiftRadio/Libraries/Spring;
+			sourceTree = SOURCE_ROOT;
+		};
+		94E976191B1A8BFB00F52B1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2208547B1D8329990003D2DD /* Artist.swift */,
+				220854791D8327BC0003D2DD /* EarbitsTrack.swift */,
+				94817DFA1B547D5700D3FA23 /* Player.swift */,
+				229654471D85493B007BEE74 /* TrackList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F00EC2A5FDDDDD4918BCCE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C05B9176740D26066A1CD518 /* Pods-SwiftRadio.debug.xcconfig */,
+				77FCF8C1B10D159D172E24E8 /* Pods-SwiftRadio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220854831D8360360003D2DD /* EarbitsTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2208548B1D8360360003D2DD /* Build configuration list for PBXNativeTarget "EarbitsTrackTests" */;
+			buildPhases = (
+				220854801D8360360003D2DD /* Sources */,
+				220854811D8360360003D2DD /* Frameworks */,
+				220854821D8360360003D2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2208548A1D8360360003D2DD /* PBXTargetDependency */,
+			);
+			name = EarbitsTrackTests;
+			productName = EarbitsTrackTests;
+			productReference = 220854841D8360360003D2DD /* EarbitsTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C5545B91C1124DE00728469 /* SwiftRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "SwiftRadioUITests" */;
+			buildPhases = (
+				2C5545B61C1124DE00728469 /* Sources */,
+				2C5545B71C1124DE00728469 /* Frameworks */,
+				2C5545B81C1124DE00728469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5545C01C1124DE00728469 /* PBXTargetDependency */,
+			);
+			name = SwiftRadioUITests;
+			productName = SwiftRadioUITests;
+			productReference = 2C5545BA1C1124DE00728469 /* SwiftRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9409E1151ABF6FEA00312E2B /* SwiftRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "SwiftRadio" */;
+			buildPhases = (
+				F3D027648E38466BC15043CB /* Check Pods Manifest.lock */,
+				9409E1121ABF6FEA00312E2B /* Sources */,
+				9409E1131ABF6FEA00312E2B /* Frameworks */,
+				9409E1141ABF6FEA00312E2B /* Resources */,
+				FCD8C756C4F4672FF3446113 /* Embed Pods Frameworks */,
+				86DE5D662A26F1A2716AEDC4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRadio;
+			productName = RadioPro;
+			productReference = 9409E1161ABF6FEA00312E2B /* SwiftRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9409E10E1ABF6FE900312E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = matthewfecher.com;
+				TargetAttributes = {
+					220854831D8360360003D2DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9409E1151ABF6FEA00312E2B;
+					};
+					2C5545B91C1124DE00728469 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9409E1151ABF6FEA00312E2B;
+					};
+					9409E1151ABF6FEA00312E2B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = LYV8U2R39U;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "SwiftRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9409E10D1ABF6FE900312E2B;
+			productRefGroup = 9409E1171ABF6FEA00312E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9409E1151ABF6FEA00312E2B /* SwiftRadio */,
+				2C5545B91C1124DE00728469 /* SwiftRadioUITests */,
+				220854831D8360360003D2DD /* EarbitsTrackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220854821D8360360003D2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5545B81C1124DE00728469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9409E1141ABF6FEA00312E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220854781D8327080003D2DD /* earbitsTrack.json in Resources */,
+				9409E1241ABF6FEA00312E2B /* Main.storyboard in Resources */,
+				94DB0A9F1B98B762005ED993 /* LoadingView.xib in Resources */,
+				94DB0A9C1B98B762005ED993 /* Info.plist in Resources */,
+				9409E1261ABF6FEA00312E2B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86DE5D662A26F1A2716AEDC4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftRadio/Pods-SwiftRadio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D027648E38466BC15043CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD8C756C4F4672FF3446113 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftRadio/Pods-SwiftRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220854801D8360360003D2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220854921D8366A40003D2DD /* EarbitsTrack.swift in Sources */,
+				220854911D83668D0003D2DD /* SwiftyJSON.swift in Sources */,
+				220854901D8365FD0003D2DD /* EarbitsTrackDataManager.swift in Sources */,
+				220854931D8366AC0003D2DD /* Artist.swift in Sources */,
+				220854941D8368E50003D2DD /* SwiftRadio-Settings.swift in Sources */,
+				220854871D8360360003D2DD /* EarbitsTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5545B61C1124DE00728469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5545BD1C1124DE00728469 /* SwiftRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9409E1121ABF6FEA00312E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208548F1D8363040003D2DD /* EarbitsTrackDataManager.swift in Sources */,
+				94DB0AA01B98B762005ED993 /* Misc.swift in Sources */,
+				94DB0AA31B98B762005ED993 /* SpringAnimation.swift in Sources */,
+				94DB0A961B98B762005ED993 /* DesignableLabel.swift in Sources */,
+				2208547C1D8329990003D2DD /* Artist.swift in Sources */,
+				94DB0AA11B98B762005ED993 /* SoundPlayer.swift in Sources */,
+				94DB0A9D1B98B762005ED993 /* KeyboardLayoutConstraint.swift in Sources */,
+				94DB0AA51B98B762005ED993 /* SpringImageView.swift in Sources */,
+				949E5EB01ACB340200AB6280 /* UIImageView+Download.swift in Sources */,
+				94DB0A981B98B762005ED993 /* DesignableTextField.swift in Sources */,
+				94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */,
+				94DB0A941B98B762005ED993 /* DesignableButton.swift in Sources */,
+				94DB0AA61B98B762005ED993 /* SpringLabel.swift in Sources */,
+				94DB0A901B98B762005ED993 /* AsyncButton.swift in Sources */,
+				9409E1401ABF78B000312E2B /* PlayerViewController.swift in Sources */,
+				94DB0A911B98B762005ED993 /* AsyncImageView.swift in Sources */,
+				94DB0A971B98B762005ED993 /* DesignableTabBarController.swift in Sources */,
+				94E9761C1B1A8F3200F52B1E /* UIImage+DropShadow.swift in Sources */,
+				94DB0AAA1B98B762005ED993 /* TransitionManager.swift in Sources */,
+				94DB0A9B1B98B762005ED993 /* ImageLoader.swift in Sources */,
+				94DB0A951B98B762005ED993 /* DesignableImageView.swift in Sources */,
+				94DB0A921B98B762005ED993 /* AutoTextView.swift in Sources */,
+				94DB0AA91B98B762005ED993 /* SpringView.swift in Sources */,
+				94DB0AAB1B98B762005ED993 /* TransitionZoom.swift in Sources */,
+				9409E11C1ABF6FEA00312E2B /* AppDelegate.swift in Sources */,
+				94ECF2671B94D80600D120A8 /* SwiftyJSON.swift in Sources */,
+				94D260961B45E3FA00DE671C /* AnimationFrames.swift in Sources */,
+				94DB0A9E1B98B762005ED993 /* LoadingView.swift in Sources */,
+				94DB0AA41B98B762005ED993 /* SpringButton.swift in Sources */,
+				94DB0A931B98B762005ED993 /* BlurView.swift in Sources */,
+				229654481D85493B007BEE74 /* TrackList.swift in Sources */,
+				94DB0AA71B98B762005ED993 /* SpringTextField.swift in Sources */,
+				2208547A1D8327BC0003D2DD /* EarbitsTrack.swift in Sources */,
+				94DB0AAC1B98B762005ED993 /* UnwindSegue.swift in Sources */,
+				94DB0AA81B98B762005ED993 /* SpringTextView.swift in Sources */,
+				94DB0A991B98B762005ED993 /* DesignableTextView.swift in Sources */,
+				94DB0AA21B98B762005ED993 /* Spring.swift in Sources */,
+				94817DFB1B547D5700D3FA23 /* Player.swift in Sources */,
+				94DB0A9A1B98B762005ED993 /* DesignableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2208548A1D8360360003D2DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9409E1151ABF6FEA00312E2B /* SwiftRadio */;
+			targetProxy = 220854891D8360360003D2DD /* PBXContainerItemProxy */;
+		};
+		2C5545C01C1124DE00728469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9409E1151ABF6FEA00312E2B /* SwiftRadio */;
+			targetProxy = 2C5545BF1C1124DE00728469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9409E1221ABF6FEA00312E2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9409E1231ABF6FEA00312E2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2208548C1D8360360003D2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = EarbitsTrackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EarbitsTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRadio.app/SwiftRadio";
+			};
+			name = Debug;
+		};
+		2208548D1D8360360003D2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = EarbitsTrackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EarbitsTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftRadio.app/SwiftRadio";
+			};
+			name = Release;
+		};
+		2C5545C11C1124DE00728469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwiftRadioUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.SwiftRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2C5545C21C1124DE00728469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwiftRadioUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.SwiftRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		9409E1361ABF6FEA00312E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9409E1371ABF6FEA00312E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9409E1391ABF6FEA00312E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05B9176740D26066A1CD518 /* Pods-SwiftRadio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftRadio",
+				);
+				INFOPLIST_FILE = SwiftRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewfecher.SwiftRadio;
+				PRODUCT_NAME = SwiftRadio;
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Debug;
+		};
+		9409E13A1ABF6FEA00312E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FCF8C1B10D159D172E24E8 /* Pods-SwiftRadio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftRadio",
+				);
+				INFOPLIST_FILE = SwiftRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewfecher.SwiftRadio;
+				PRODUCT_NAME = SwiftRadio;
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2208548B1D8360360003D2DD /* Build configuration list for PBXNativeTarget "EarbitsTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2208548C1D8360360003D2DD /* Debug */,
+				2208548D1D8360360003D2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "SwiftRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5545C11C1124DE00728469 /* Debug */,
+				2C5545C21C1124DE00728469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "SwiftRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9409E1361ABF6FEA00312E2B /* Debug */,
+				9409E1371ABF6FEA00312E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "SwiftRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9409E1391ABF6FEA00312E2B /* Debug */,
+				9409E13A1ABF6FEA00312E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9409E10E1ABF6FE900312E2B /* Project object */;
+}

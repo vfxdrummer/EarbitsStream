@@ -1,0 +1,86 @@
+{
+  "id":"4f5431431d480502ec00562f",
+  "track_id":"4f5431431d480502ec00562f",
+  "slug":"is-there-still-time",
+  "name":"Is There Still Time",
+  "artist_id":"4f53a40bec45fb058d02d868",
+  "artist_slug":"sherry-lynn",
+  "artist_name":"Sherry Lynn",
+  "album_id":"4f542e98461b933ac0011471",
+  "algorithm":0.6263473053892216,
+  "starts":3061,
+  "album_name":"It's A Woman Thing",
+  "amazon_album_url":"",
+  "album_purchase_links":[
+  
+  ],
+  "duration":200333,
+  "is_connected_to_artist":false,
+  "artist_facebook_url":"http://www.facebook.com/sherrylynnmusic1",
+  "artist_twitter":null,
+  "on_demand_play":false,
+  "is_user_track":false,
+  "sharing_disabled":false,
+  "sponsored":true,
+  "media_file":"http://media-http-prod-0.earbits.com/4ee43cc8734463bb637621e89ce0820c.mp3",
+  "kbps64":"http://media-http-prod-0.earbits.com/21f843e851bc6dda11d619814315faa0.mp3",
+  "feature_image":"http://cdn-1.earbits.com/images/52607e78b93af7000200024e/1382055544/main/Sherry_Lynn_Promo_Pic_09.jpeg?1382055544",
+  "cover_image":"http://cdn-1.earbits.com/images/4f542f39692ccf55a8004fc9/1330917178/album/CD-Cover-%28Medium%29.jpeg?1330917178",
+  "music_collection_ids":[
+                          "4cbe3422c3db2977c2000e35",
+                          "4f6cc821f3fac71dc8016fea",
+                          "4c68a4d8cb23005839000004"
+                          ],
+  "artist":{
+    "id":"4f53a40bec45fb058d02d868",
+    "name":"Sherry Lynn",
+    "slug":"sherry-lynn",
+    "biography":"\u003cp\u003eFor Sherry Lynn, A Beautiful Life is more than her sophomore album; it’s her view of the world. The title cut, a duet with Grammy-winning superstar Crystal Gayle, backs it up: Life is short, so jump in with both feet, chase your dreams, hold fast and relish the ride. \u003c/p\u003e\u003cp\u003eThat’s exactly what Sherry has been doing since she transitioned from the Karaoke stage to opening in 2006 for Sammy Kershaw at Pitman, New Jersey’s historic Broadway Theatre. Fast-forward two years, when Sherry was invited back to the Broadway to open for Crystal Gayle, one of Sherry’s musical heroes.  The concert turned out to be a pivotal moment in Sherry’s career.\u003c/p\u003e\u003cp\u003eIt was one of those freeze-frame moments for Sherry. As a child, she’d set her career compass to singing the same day she watched Loretta Lynn’s biopic Coal Miner’s Daughter. And now there she was opening for Loretta’s sister. \u003c/p\u003e\u003cp\u003eIn 2011 Sherry was delighted when Crystal agreed to lend her vocals to a song on Sherry’s up and coming CD which was then put on hold while the perfect song was found. In December of 2012 Beautiful Life, a song co-penned by award-winning tunesmith Danny Wells, best known for George Strait’s Check Yes Or No and Rascal Flatts’ These Days. Sherry and Crystal joined voices at Crystal’s studio, Audio 51, with producer Ted Hewitt, the studio wizard behind Rodney Atkins’ string of Number One hits. Crystal’s son Christos Gatzimos engineered the session.  \u003c/p\u003e\u003cp\u003eTo choose the nine other tunes on A Beautiful Life, Sherry turned to stellar songwriters like Kelley Lovelace, who co-penned Girls Will Be Girls and eight Brad Paisley Number Ones; ASCAP 2009 Songwriter of the Year Ashley Gorley, who took Carrie Underwood to the top with All-American Girl and Good Girl; Edward Monroe Hill, another George Strait hitmaker, and Karyn Rochelle noted for writing Trisha Yearwood’s This Is Me You’re Talking To, and Kelly Pickler’s hits I Wonder and Red High Heels.\u003c/p\u003e\u003cp\u003eThat an independent artist could land A-list songs by top tier writers proves that Sherry’s is a voice to be reckoned with. Because of her equally polished stage presence, she’s shared the stage with the likes of Miranda Lambert, the Oak Ridge Boys, LeAnn Rimes, John Rich and Chris Young. Sherry belted out The Star Spangled Banner before a crowd of 45,000 when the Phillies played the Mets at Citizen’s Bank Park in Philadelphia. This summer was one Sherry will not soon forget. Performing at the CMA Music Festival in downtown Nashville was amazing but nothing could compare to what happened next. Crystal invited Sherry to perform Beautiful Life on the legendary stage that Sherry dreamed of her entire life, The Grand Ole Opry. “There are no words to describe the emotion I felt or what it meant to me to sing on that stage where so many legends have stood. I could never Thank Crystal enough for making my dream come true” \u003c/p\u003e\u003cp\u003eWhether Sherry’s sneaking a peek at the hottie next door in I Like ‘Em Like That, embracing love in I Could Get Used To This, or blowing off heartbreak in Slip Into Something Mexico and What a Day To Shake a Heartache, Sherry keeps it upbeat and personal. When she ramps up the rowdy anthem Girls Will Be Girls and “points her taillights at yesterday” in So Much More, it’s autobiographical. Pure Sherry Lynn and her Beautiful Life.\u003c/p\u003e",
+    "feature_image":"http://cdn-1.earbits.com/images/52607e78b93af7000200024e/1382055544/main/Sherry_Lynn_Promo_Pic_09.jpeg?1382055544",
+    "cover_image":"http://cdn-1.earbits.com/images/4f542f39692ccf55a8004fc9/1330917178/album/CD-Cover-%28Medium%29.jpeg?1330917178",
+    "hometown":"Sewell / Nashville",
+    "twitter_url":"http://www.twitter.com/sherrylynnmusic",
+    "facebook_url":"http://www.facebook.com/sherrylynnmusic1",
+    "website_url":"http://www.sherrylynnmusic.com",
+    "myspace_url":"http://www.myspace.com/sherrylynnmusic",
+    "mailing_list_id":"512f67359f99d2004502935f",
+    "album_count":3,
+    "images":[
+              {
+              "small":"http://cdn-1.earbits.com/images/4f5438d51d48052d8f000b61/1330919637/thumb/lee.jpeg?1330919637",
+              "normal":"http://cdn-1.earbits.com/images/4f5438d51d48052d8f000b61/1330919637/main/lee.jpeg?1330919637",
+              "ratio":1.5023474178403755
+              },
+              {
+              "small":"http://cdn-1.earbits.com/images/4f54390a950d5f7a3a01de84/1330919690/thumb/Untitled4.jpeg?1330919690",
+              "normal":"http://cdn-1.earbits.com/images/4f54390a950d5f7a3a01de84/1330919690/main/Untitled4.jpeg?1330919690",
+              "ratio":1.0173501577287065
+              },
+              {
+              "small":"http://cdn-1.earbits.com/images/51b8763525823400020016fe/1371043381/thumb/Sherry%20Lynn%205.jpeg?1371043381",
+              "normal":"http://cdn-1.earbits.com/images/51b8763525823400020016fe/1371043381/main/Sherry%20Lynn%205.jpeg?1371043381",
+              "ratio":1.5
+              },
+              {
+              "small":"http://cdn-1.earbits.com/images/51b87667f906800002001589/1371043431/thumb/Sherry%20Lynn%208.jpeg?1371043431",
+              "normal":"http://cdn-1.earbits.com/images/51b87667f906800002001589/1371043431/main/Sherry%20Lynn%208.jpeg?1371043431",
+              "ratio":1.0
+              },
+              {
+              "small":"http://cdn-1.earbits.com/images/51b8774abf750d00020066af/1371043658/thumb/Sherry%20Lynn2.jpg2.jpeg?1371043658",
+              "normal":"http://cdn-1.earbits.com/images/51b8774abf750d00020066af/1371043658/main/Sherry%20Lynn2.jpg2.jpeg?1371043658",
+              "ratio":0.8437705998681608
+              },
+              {
+              "small":"http://cdn-1.earbits.com/images/51b87d87bf750d000200681b/1371045255/thumb/Sherry%20Lynn%20-%20Sand%20Text%20Photo.jpg1.jpeg?1371045255",
+              "normal":"http://cdn-1.earbits.com/images/51b87d87bf750d000200681b/1371045255/main/Sherry%20Lynn%20-%20Sand%20Text%20Photo.jpg1.jpeg?1371045255",
+              "ratio":1.292929292929293
+              },
+              {
+              "small":"http://cdn-1.earbits.com/images/52607e78b93af7000200024e/1382055544/thumb/Sherry_Lynn_Promo_Pic_09.jpeg?1382055544",
+              "normal":"http://cdn-1.earbits.com/images/52607e78b93af7000200024e/1382055544/main/Sherry_Lynn_Promo_Pic_09.jpeg?1382055544",
+              "ratio":1.3868312757201646
+              }
+              ]
+  }
+}
